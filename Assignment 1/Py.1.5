@@ -1,0 +1,12 @@
+n=int(input("enter the number of students:"))
+names=[]
+for i in range(n):
+    inputs=input(f"enter student {i+1} name:")
+    inputs=inputs[:15]
+    names.append(inputs)
+print(names)
+revnames=[]
+for i in range(n):
+    names[i]=names[i][::-1]
+    revnames.append(names[i])
+print(revnames)
