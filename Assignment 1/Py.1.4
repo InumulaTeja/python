@@ -1,0 +1,29 @@
+list_0=[]
+list_1=[]
+list_2=[]
+list_3=[]
+list_4=[]
+nums=[x for x in range(1,10001)]
+for i in range(1,10001):
+    if i%5==0:
+        list_0.append(i)
+    elif i%5==1:
+        list_1.append(i)
+    elif i%5==2:
+        list_2.append(i)
+    elif i%5==3:
+        list_3.append(i) 
+    elif i%5==4:
+        list_4.append(i)     
+total_list=list_0+list_1+list_2+list_3+list_4
+total_list.sort()
+a=0
+for i in range(0,10000):
+    if total_list[i]==nums[i]:
+        a+=1
+    else:
+        a=0
+if a==len(nums):
+    print("valid")
+else:
+    print("invalid")
