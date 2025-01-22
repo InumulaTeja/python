@@ -1,0 +1,17 @@
+import random
+n=int(input("enter the value of n:"))
+random_integers=[]
+for i in range(n+1):
+    random_integers.append(random.randint(0,1))
+c=0
+l=0
+print(random_integers)
+for i in range(n+1):
+    if random_integers[i]!=1:
+        c+=1
+        if c>l:
+            l=c
+    else:
+        c=0
+print("longest run:",l)    
+        
