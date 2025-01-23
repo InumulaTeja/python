@@ -1,0 +1,13 @@
+word=list(input("enter the word:"))
+newlist=[]
+print(word)
+for i in range(len(word)):
+    if i%2 != 0:
+        #word[i].capitalize()
+        #newlist.append(word[i])
+       newlist.append(word[i].capitalize())
+    else:
+        newlist.append(word[i])
+print(newlist)
+newword="".join(newlist)
+print(newword)
