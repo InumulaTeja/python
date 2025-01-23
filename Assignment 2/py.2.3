@@ -1,0 +1,16 @@
+n=int(input("enter the number of test cases:"))
+list_1=[]
+for i in range(n):
+    num=int(input(f"enter the number {i+1}:"))
+    list_1.append(num)
+print("output:")
+for x in list_1:
+    s=x
+    c=0
+    while s>0:
+        rem=s%10
+        if x%rem==0:
+            c+=1
+        s=s//10
+    print(c)
+    
