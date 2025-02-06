@@ -1,0 +1,8 @@
+s=input("enter the string:")
+s_lower=s.lower()
+string=s_lower.replace(" ","")
+s_set=set(string)
+if len(s_set)==26:
+    print("is pangram")
+else:
+    print("not pangram")
