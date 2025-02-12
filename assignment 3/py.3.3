@@ -1,0 +1,17 @@
+def utopian_tree(N:int)->int:
+    height=1
+    i=0
+    if N==0:
+       height=1
+    else:
+        while N!=i:
+            i+=1
+            if i%2==1:
+                height=height*2
+            else:
+                height+=1
+    print(height)
+T=int(input("enter the number of testcases:"))
+for i in range(T):
+    N=int(input())
+    utopian_tree(N)
