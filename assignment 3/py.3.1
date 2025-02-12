@@ -1,0 +1,9 @@
+num = int(input("Enter the number: "))
+while num >= 10:
+    numstr = str(num)  
+    digit_sum = 0
+    for x in numstr:  
+        digit_sum += int(x)  
+    num = digit_sum  
+
+print("Digital root =", num)
