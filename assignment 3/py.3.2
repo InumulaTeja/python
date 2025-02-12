@@ -1,0 +1,14 @@
+a=0
+b=1
+sum=0
+fibo_list=[0,1]
+for i in range(25):
+    sum=a+b
+    fibo_list.append(sum)
+    a=b
+    b=sum
+n=int(input("enter the number:"))
+if n in fibo_list:
+    print("is fibo")
+else :
+    print("not fibo")
