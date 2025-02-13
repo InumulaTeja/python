@@ -1,0 +1,11 @@
+def meddle(word:str) ->int:
+    count=0
+    for i in range(0,len(word)//2):
+       if word[i] != word[len(word)-1-i]:
+            count += abs(ord(word[len(word)-1-i])-ord(word[i]))
+    print(count)
+T=int(input("enter the number of testcases:"))
+for i in range(T):
+    word=input()
+    meddle(word)
+    
