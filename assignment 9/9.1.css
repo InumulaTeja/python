@@ -1,0 +1,221 @@
+.zomato-main-logo{
+
+position:relative;
+
+margin :0px;
+
+margin-bottom : 50px;
+
+}
+
+.zomato-photo{
+
+width : 1500px;
+
+height : 450px;
+
+}
+
+.zomato-logo{
+
+position: absolute;
+
+top:70px;
+
+bottom : 320px;
+
+left : 400px;
+
+right : 400px;
+
+width : 700px;
+
+height :150px;
+
+object-fit :contain;
+
+}
+
+.para{
+
+position : absolute;
+
+top : 220px;
+
+left : 550px;
+
+right : 500px;
+
+bottom : 150px;
+
+color : white;
+
+font-family : Roboto,Arial;
+
+font-size : 20px;
+
+}
+
+.search-bar{
+
+position: absolute;
+
+top : 300px;
+
+left :400px;
+
+right: 400px;
+
+bottom : 110px;
+
+padding: 12px 10px 12px 10px;
+
+border-width : 1px;
+
+border-style : none;
+
+border-radius : 4px;
+
+}
+
+.search-icon{
+
+position :absolute;
+
+top:300px;
+
+left : 400px;
+
+height : 20px;
+
+width : 20px;
+
+}
+
+.login-button{
+
+position : absolute;
+
+top :20px;
+
+right : 300px;
+
+background-color : none;
+
+color : red;
+
+padding : 8px 12px 8px 12px;
+
+font-size : 12px;
+
+border-style : solid;
+
+border-width : 0px;
+
+border-radius : 4px;
+
+font-family : Roboto,Arial;
+
+}
+
+.sign-up-button{
+
+position : absolute;
+
+top : 20px;
+
+right : 200px;
+
+background-color : none;
+
+color: red;
+
+padding : 8px 12px 8px 12px;
+
+font-size :12px;
+
+border-style : solid;
+
+border-width : 0px;
+
+border-radius : 4px;
+
+font-family : Roboto,Arial;
+
+transition : background-color,color 0.15s;
+
+}
+
+.get-app-link{
+
+position : absolute;
+
+top:20px;
+
+left:200px;
+
+color : white;
+
+text-decoration : none;
+
+}
+
+.sign-up-button:hover{
+
+background-color : red;
+
+color : white;
+
+}
+
+.login-button:hover{
+
+background-color : red;
+
+color : white;
+
+}
+
+.container1{
+
+width : 280px;
+
+height : 300px;
+
+border-color :rgb(21, 20, 20);
+
+border-style: solid;
+
+border-width : 1px;
+
+display: inline-block;
+
+margin-right : 25px;
+
+border-radius :5px;
+
+margin-left : 50px;
+
+}
+
+.food{
+
+height: 220px;
+
+width : 280px;
+
+margin :20px 0px 20px 0px;
+
+}
+
+.order-food-online{
+
+font-family : Roboto,Arial;
+
+font-weight : 400;
+
+font-size : 16px;
+
+text-align : center;
+
+}
